@@ -1,0 +1,12 @@
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-header {
+  font-weight: bold;
+}
+
+.message-content {
+  margin: 0.5em;
+}
