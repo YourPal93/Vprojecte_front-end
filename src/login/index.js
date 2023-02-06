@@ -39,6 +39,10 @@ const Login = () => {
         });
     }
 
+    function signUp() {
+        window.location.href = 'registration'
+    }
+
     return (
         <>
             <Container>
@@ -80,6 +84,7 @@ const Login = () => {
                             id="submit"
                             type="button"
                             size="sm"
+                            onClick={() => signUp()}
                         >
                             Sign up
                         </Button>
